@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding:0 ;
+    
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+#card{
+    height: 420px;
+    width: 280px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.mode{
+    background-color: rgb(30, 30, 30);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+    height: 30px;
+    width: 100%
+}
+#line{
+    height: 2.5px;
+    width: 42%;
+    background-color: rgb(60, 123, 200);
+    position: absolute;
+    left: 4px;
+    top: 32px;
+    margin-left: 6px;
+}
+#st{
+    color:  rgb(60, 123, 200);
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+   font-weight: bold;
+    
+}
+#rl{
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+   font-weight: bold;
+}
+
+
+
+
+#stories{
+    width: 100%;
+    height: 157px;
+    border-bottom: 7px solid  rgb(14, 14, 14);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    
+}
+#stories::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height:141px;
+    width: 80px;
+    background-color: red;
+    border-radius: 13px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    
+}
+.stry{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    
+    
+}
+.profile::-webkit-scrollbar{
+    display: none;
+}
+.profile{
+   
+    height: 30px;
+    width: 30px;
+    border: 3px solid rgb(60, 86, 200);
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    z-index: 2;
+
+}
+.dp{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+    position: absolute;
+    
+}
+#fullscreen{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    display: none;
+    z-index: 7;
+    background-size: cover;
+    background-position: center;
+}
+#dpShow{
+    height: 35px;
+    width: 35px;
+    z-index: 7;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin: 6px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+#dpShow p{
+    font-family: 'Secular One', sans-serif;
+    font-size: small;
+    font-weight: 600;
+    left: 45px;
+    top: 7px;
+    color: #fff;
+    position: absolute;   
+    width: 150px;
+}
+#growth{
+    height: 2.5px;
+    background-color: #ffffff;
+    width: 0px;
+    margin: 6px;
+    position: absolute;
+    top: -5.8px;
+    left: -5px;
+   
+}
+#pogress{
+    height: 2.5px;
+    width: 268px;
+    background-color: #727272;
+    margin: 6px;
+    position: relative;
+    
+}
+#cross{
+    width: 25px;
+    height: 30px;
+    
+    position: absolute;
+    left: 250px;
+    top: 31px;
+}
+
+#cross i{
+    
+     font-weight:lighter;
+    color: #fff;
+
+
+    
+}
+.msgREact{
+    display: flex;
+    position: absolute;
+    top: 23rem;
+    justify-content: center;
+    align-items: center;
+}
+#comment{
+    
+    margin: 10px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    opacity: 0.5;
+}
+#com{
+    color: #ffffff;
+    font-size: medium;
+    position: absolute;
+    top: 24rem;
+    left: 17px;
+    z-index: 10;
+}
+#msgme{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 22px;
+    border: none;
+    color: white;
+}
+
+#love1{
+    color: rgb(188, 42, 54);
+    margin: 6px;
+    z-index: 1;
+}
+#love2{
+    color: #ffffff;
+    font-size: small;
+    position: absolute;
+    top: 386px;
+    left: 182px;
+    z-index: 4;
+}
+#like{
+    color: rgb(36, 87, 206);
+    margin-bottom: 4px;
+
+}
+#ha{
+    background-color: rgb(233, 214, 41);
+    border-radius: 50%;
+    margin-left: 6px;
+    font-size: 24px;
+    height: 22px;
+    width: 22px;
+}
